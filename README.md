@@ -48,6 +48,11 @@ cinst visualstudiocode
 cinst visualstudio2017community
 ```
 
+on mac
+```
+brew install openssl
+```
+
 ### Ruby
 Even if you don't care about Ruby at all, bear in mind that it's preinstalled on OS X (and easy to install on Unix), so many dev tools might be trying to leverage it. For example, GitHub pages are compiled using Jekyll - if you want to get in on that, install Ruby.
 
