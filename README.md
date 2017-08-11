@@ -4,8 +4,6 @@ I use Paralles Desktop to use Windows 10 on Mac and by doing so, I can use the b
 
 ### Package Management
 
-#### Chocolatey
-
 * [Homebrew](https://brew.sh/): "Homebrew installs the stuff you need that Apple didn’t."
 * [Chocolatey](https://chocolatey.org): "The sane way to manage software on Windows"
 
