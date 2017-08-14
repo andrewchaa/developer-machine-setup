@@ -1,18 +1,27 @@
 ## Mac and Windows Setup For Cross-Platform Development
 
-I use Paralles Desktop to use Windows 10 on Mac and by doing so, I can use the both OS on the same machine.
+Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use your own virtual machine software.
 
 ### Package Management
 
 * [Homebrew](https://brew.sh/): "Homebrew installs the stuff you need that Apple didn’t."
 * [Chocolatey](https://chocolatey.org): "The sane way to manage software on Windows"
 
-### Terminals and shells
+### Terminals, shells, and files
 
 * [iterm2](https://www.iterm2.com/): "a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.8 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
 * [cmder](http://cmder.net/): "a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start."
 * [Gow](https://github.com/bmatzelle/gow): "The lightweight alternative to Cygwin"
 
+#### Finder 
+From https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/
+
+It's very handy to have alias to turn on / off shwoing hidden files
+
+```
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+```
 
 ### Node
 
