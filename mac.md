@@ -1,27 +1,37 @@
-## Setting up Mac For Development
+## Mac For Development
 
-Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use your own virtual machine software.
+#### [Homebrew](https://brew.sh/)
 
-### Package Management
+"Homebrew installs the stuff you need that Apple didn’t."
 
-* [Homebrew](https://brew.sh/): "Homebrew installs the stuff you need that Apple didn’t."
+#### [iterm2](https://www.iterm2.com/)
 
-### Terminals, shells, and files
+"a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.8 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
 
-* [iterm2](https://www.iterm2.com/): "a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.8 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
-* Finder: https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/
+```
+brew cask install iterm2
+```
 
-  It's very handy to have alias to turn on / off shwoing hidden files
+#### [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-   ```
-   alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-   alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-   ```
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
- 
-##### bash aliases
+#### [Finder, show / hide hidden files](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/)
 
+It's very handy to have alias to turn on / off shwoing hidden files
 
+```
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+```
+
+##### [aliases](https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions)
+
+```
+alias ll="ls -lhA"
+```
 
 
 ### VS Code
