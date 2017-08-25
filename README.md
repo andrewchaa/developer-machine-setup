@@ -2,4 +2,5 @@
 
 Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use your own virtual machine software.
 
-* [mac set-up](setup-mac.md)
+* [mac](setup-mac.md)
+* [windows](setup-windows.md)
