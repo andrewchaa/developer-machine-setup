@@ -33,6 +33,11 @@ Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use 
   ```
   
   Then add Import-Module posh-git in the file
+  
+##### bash aliases
+
+
+
 
 ### Node
 
