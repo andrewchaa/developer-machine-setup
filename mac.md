@@ -46,7 +46,7 @@ brew install openssl
 ```
 
 #### Node.js
-
+https://yarnpkg.com/en/docs/install
 ```
-brew instal yarn
+brew install yarn
 ```
