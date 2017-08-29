@@ -39,10 +39,14 @@ alias ll="ls -lhA"
 ```
 
 
-### VS Code
+#### VS Code
 
-on mac
 ```
 brew install openssl
 ```
 
+#### Node.js
+
+```
+brew instal yarn
+```
