@@ -39,6 +39,36 @@ alias ll="ls -lhA"
 ```
 
 
+#### Git
+
+What's a developer without [Git](http://git-scm.com/)? To install, simply run:
+
+    $ brew install git
+    
+When done, to test that it installed fine you can run:
+
+    $ git --version
+    
+And `$ which git` should output `/usr/local/bin/git`.
+
+Let's set up some basic configuration. Download the [.gitconfig](https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig) file to your home directory:
+
+    $ cd ~
+    $ curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig
+
+It will add some color to the `status`, `branch`, and `diff` Git commands, as well as a couple aliases. Feel free to take a look at the contents of the file, and add to it to your liking.
+
+Next, we'll define your Git user (should be the same name and email you use for [GitHub](https://github.com/) and [Heroku](http://www.heroku.com/)):
+
+    $ git config --global user.name "Your Name Here"
+    $ git config --global user.email "your_email@youremail.com"
+
+They will get added to your `.gitconfig` file.
+
+To push code to your GitHub repositories, we're going to use the recommended HTTPS method (versus SSH). So you don't have to type your username and password everytime, let's enable Git password caching as described [here](https://help.github.com/articles/set-up-git):
+
+    $ git config --global credential.helper osxkeychain
+
 #### VS Code
 
 ```
