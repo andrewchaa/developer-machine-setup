@@ -12,17 +12,19 @@ Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use 
 
 * [cmder](http://cmder.net/): "a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start."
 * [Gow](https://github.com/bmatzelle/gow): "The lightweight alternative to Cygwin"
+* [posh-git](https://github.com/dahlbyk/posh-git)
 
-#### To Set up
+#### powershell profile
 
-* Posh-git
-
-  ```
-  notepad $profile.CurrentUserAllHosts
-  ```
+run notepad $profile.CurrentUserAllHosts to edit it.
   
-  Then add Import-Module posh-git in the file
-  
+    Import-Module posh-git in the file
+    New-Alias ll Get-ChildItem
+
+The above will
+* import posh-git module
+* create an alias of "ll", to do "dir"
+
 
 ### Node
 
