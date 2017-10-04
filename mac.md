@@ -80,3 +80,12 @@ https://yarnpkg.com/en/docs/install
 ```
 brew install yarn
 ```
+
+### Paralles Desktop
+
+#### Keyboard shotcut
+
+Go to Settings > Shortcuts > Windows 10
+
+* CMD + ->: End
+* CMD + <-: Home
