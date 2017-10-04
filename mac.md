@@ -87,5 +87,5 @@ brew install yarn
 
 Go to Settings > Shortcuts > Windows 10
 
-* CMD + ->: End
+* CMD + ->: End, to use Mac shortcut for End on windows. Otherwise, you keep arranging windows
 * CMD + <-: Home
