@@ -1,5 +1,9 @@
 ## Mac For Development
 
+### System Preference
+
+* Enable tab navigation on dialog: System Preference > Keyboard > Shortcuts > Full Keyboard Access, All controls
+
 #### Homebrew
 https://brew.sh/
 
