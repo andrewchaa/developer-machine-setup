@@ -17,9 +17,11 @@ Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use 
 #### powershell profile
 
 run notepad $profile.CurrentUserAllHosts to edit it.
-  
-    Import-Module posh-git in the file
-    New-Alias ll Get-ChildItem
+
+```powershell
+Import-Module posh-git in the file
+New-Alias l Get-ChildItem
+```
 
 The above will
 * import posh-git module
